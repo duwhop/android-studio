@@ -1,0 +1,13 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+.
+ filter=lfs diff=lfs merge=lfs -text
+~/Desktop/android-studio/* filter=lfs diff=lfs merge=lfs -text
+/c/Users/kjean/Desktop/android-studio/* filter=lfs diff=lfs merge=lfs -text
+android-studio/* filter=lfs diff=lfs merge=lfs -text
+*.jar filter=lfs diff=lfs merge=lfs -text
+android-studio/jre/lib/*.jar filter=lfs diff=lfs merge=lfs -text
+android-studio/jre/jre/lib/*.jar filter=lfs diff=lfs merge=lfs -text
+jre/jre/lib/*.jar filter=lfs diff=lfs merge=lfs -text
+lib/*.jar filter=lfs diff=lfs merge=lfs -text
+lib/idea.jar filter=lfs diff=lfs merge=lfs -text
+jre/jre/lib/rt.jar filter=lfs diff=lfs merge=lfs -text
